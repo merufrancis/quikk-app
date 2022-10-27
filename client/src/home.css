@@ -1,0 +1,41 @@
+.header  {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    align-items: flex-start;
+    margin-right: 550px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header li {
+    color: white;
+    list-style: none;
+    padding: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.header li a {
+    text-decoration: none;
+    color: white;
+}
+.header li a:hover {
+    color: aqua;
+}
+.home {
+    background-image: url(/laptop.jpg);
+    height: 550px;
+    background-size: cover;
+    margin: 0;
+}
+.home h1 {
+    align-items: center;
+    justify-content: center;
+}
